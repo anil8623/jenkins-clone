@@ -1,0 +1,22 @@
+commit bd3c62ef8676d451d0cbbabea06b88f42df20a19
+tree 32659de02a8dd324f420c40f187efc898fc00894
+parent 23842c2b5e527af100f637e826ff95812dbaf3c8
+author Anil Kumar <kumar.anil502@gmail.com> 2019-02-19 20:45:04 +0530
+committer Anil Kumar <kumar.anil502@gmail.com> 2019-02-19 20:45:04 +0530
+
+    new2
+
+
+
+:100644 100644 be4ae168365a34d318585cb373d312deb5ac62a7 b9844a46584c2a96ceb2c355e58a36bbe21e5351 M	simple_web/src/main/webapp/index.jsp
+commit 23842c2b5e527af100f637e826ff95812dbaf3c8
+tree 55aac2794d647eb3c5d1ebafa383b14633540872
+parent 354479ac2072eb00f2af8b2b16df58cbca72c20e
+author Anil Kumar <kumar.anil502@gmail.com> 2019-02-19 20:41:02 +0530
+committer Anil Kumar <kumar.anil502@gmail.com> 2019-02-19 20:41:02 +0530
+
+    new1
+
+
+
+:100644 100644 5a4ee584d2f2bf619babf2546072131a8e9da0aa be4ae168365a34d318585cb373d312deb5ac62a7 M	simple_web/src/main/webapp/index.jsp

@@ -1,0 +1,53 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-14 20:56:05.364 UTC</timestamp>
+  <original>
+    <name>simple_web_compile/simple_web:simple_web</name>
+    <number>2</number>
+  </original>
+  <md5sum>788d77b8b35bfca4f995ee60def666a3</md5sum>
+  <fileName>simple_web:simple_web:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>maven10</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_integrate</string>
+      <ranges>1-16</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_integrate/simple_web:simple_web</string>
+      <ranges>1-16</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_test</string>
+      <ranges>1-16</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_package</string>
+      <ranges>2-15</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_compile/simple_web:simple_web</string>
+      <ranges>2-19</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_test/simple_web:simple_web</string>
+      <ranges>1-16</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_package/simple_web:simple_web</string>
+      <ranges>2-15</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_compile</string>
+      <ranges>2-19</ranges>
+    </entry>
+    <entry>
+      <string>maven10/simple_web:simple_web</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

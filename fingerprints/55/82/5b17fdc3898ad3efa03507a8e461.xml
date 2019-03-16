@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-03-06 18:29:46.660 UTC</timestamp>
+  <original>
+    <name>maven10/simple_web:simple_web</name>
+    <number>2</number>
+  </original>
+  <md5sum>55825b17fdc3898ad3efa03507a8e461</md5sum>
+  <fileName>simple_web:simple_web.war</fileName>
+  <usages>
+    <entry>
+      <string>maven10</string>
+      <ranges>2</ranges>
+    </entry>
+    <entry>
+      <string>maven10/simple_web:simple_web</string>
+      <ranges>2</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

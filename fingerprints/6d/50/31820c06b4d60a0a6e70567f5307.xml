@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-14 18:26:58.529 UTC</timestamp>
+  <original>
+    <name>Maven2/simple_proj:simple_proj</name>
+    <number>1</number>
+  </original>
+  <md5sum>6d5031820c06b4d60a0a6e70567f5307</md5sum>
+  <fileName>simple_proj:simple_proj:pom.xml</fileName>
+  <usages>
+    <entry>
+      <string>Maven2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Maven2/simple_proj:simple_proj</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

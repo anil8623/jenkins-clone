@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-14 18:26:58.513 UTC</timestamp>
+  <original>
+    <name>Maven2/simple_proj:simple_proj</name>
+    <number>1</number>
+  </original>
+  <md5sum>da06ff3dcc2a3c853f359e9dc1f1490b</md5sum>
+  <fileName>simple_proj:simple_proj-1.0-SNAPSHOT.jar</fileName>
+  <usages>
+    <entry>
+      <string>Maven2</string>
+      <ranges>1</ranges>
+    </entry>
+    <entry>
+      <string>Maven2/simple_proj:simple_proj</string>
+      <ranges>1</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

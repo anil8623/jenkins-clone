@@ -1,0 +1,21 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-15 08:52:41.666 UTC</timestamp>
+  <original>
+    <name>simple_web_package/simple_web:simple_web</name>
+    <number>6</number>
+  </original>
+  <md5sum>0941b1eec7f3f38a19ededa467e238af</md5sum>
+  <fileName>simple_web:simple_web.war</fileName>
+  <usages>
+    <entry>
+      <string>simple_web_package</string>
+      <ranges>6</ranges>
+    </entry>
+    <entry>
+      <string>simple_web_package/simple_web:simple_web</string>
+      <ranges>6</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

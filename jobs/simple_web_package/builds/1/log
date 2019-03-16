@@ -1,0 +1,33 @@
+Started by upstream project "[8mha:////4LUkFQ0i8ijAhOdUViPq1xTvuSC2OuhKeMpWtX1s8P1OAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgYp/az8JP3izNyCnNT48tSk+My8ktT0osSSVH0AIUqpn88AAAA=[0msimple_web_integrate" build number [8mha:////4KJunSl6jAfaSobUDc094/E6g3UIlIOYsbqLrQNqrcMJAAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmn9rPwk/eLM3IKc1Pjy1KT4zLyS1PSixJJUfSMAgTyQjNAAAAA=[0m2
+originally caused by:
+ Started by upstream project "[8mha:////4O2vMshksWrraxjDx95GFj4j0ldkTOHGoq6p/ZfOOVDmAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz+EgZR/az8JP3izNyCnNT48tSk+JLU4hJ9AOVB1ozKAAAA[0msimple_web_test" build number [8mha:////4Ny0ir8KzoIuVgo1kIt159IwH/Ud8bxQuhLtXAWchtoJAAAAoR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBjH9rPwk/eLM3IKc1Pjy1KT4ktTiEn0jAIu3K9bLAAAA[0m2
+ originally caused by:
+  Started by upstream project "[8mha:////4DKdgus2qsajvmec9UH7YjOAvXKu3h+Fwcxdcyiqub5MAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYJ/az8JP3izNyCnNT48tSk+OT83ILMnFR9ACqOrufNAAAA[0msimple_web_compile" build number [8mha:////4BKSNx31vExbyHiKyaIqilAndkwGmogiJrziiZsN0zIJAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBkn9rPwk/eLM3IKc1Pjy1KT45PzcgsycVH1TAAgMMJvOAAAA[0m5
+  originally caused by:
+   Started by user [8mha:////4F6EgpmMwJSxHEjjELLMP4EClowrmdGpQ+hqWNKOlXSGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9rNS87My8YgCX3jr2wgAAAA==[0mjenkins lab
+Building in workspace /home/anil/.jenkins/workspace/simple_web_package
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git init /home/anil/.jenkins/workspace/simple_web_package # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/simple_web.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/simple_web.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/simple_web.git # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/simple_web.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision bd180d9713bbcbb080b55b8aefa994880b1b1890 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f bd180d9713bbcbb080b55b8aefa994880b1b1890
+Commit message: "my first commit"
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: No such file /home/anil/.jenkins/workspace/simple_web_package/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+Finished: FAILURE

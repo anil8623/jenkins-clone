@@ -1,0 +1,13 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<fingerprint>
+  <timestamp>2019-02-14 21:05:50.578 UTC</timestamp>
+  <md5sum>fb6c72938f082ce32b245634eabeaabb</md5sum>
+  <fileName>Credential id=adf4b1ee-6e47-42ce-a537-94f6ea99a082 name=root/******</fileName>
+  <usages>
+    <entry>
+      <string>simple_web_integrate</string>
+      <ranges>1-16</ranges>
+    </entry>
+  </usages>
+  <facets/>
+</fingerprint>

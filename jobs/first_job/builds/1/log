@@ -1,0 +1,7 @@
+Started by user [8mha:////4F6EgpmMwJSxHEjjELLMP4EClowrmdGpQ+hqWNKOlXSGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9rNS87My8YgCX3jr2wgAAAA==[0mjenkins lab
+Building in workspace /home/anil/.jenkins/workspace/first_job
+[first_job] $ /bin/sh -xe /home/anil/project/apache-tomcat-8.5.38/temp/jenkins4107549824046205164.sh
++ pwd
+/home/anil/.jenkins/workspace/first_job
++ ls
+Finished: SUCCESS

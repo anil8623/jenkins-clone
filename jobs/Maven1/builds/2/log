@@ -1,0 +1,81 @@
+Started by user [8mha:////4F6EgpmMwJSxHEjjELLMP4EClowrmdGpQ+hqWNKOlXSGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9rNS87My8YgCX3jr2wgAAAA==[0mjenkins lab
+Building in workspace /home/anil/.jenkins/workspace/Maven1
+[WS-CLEANUP] Deleting project workspace...
+[WS-CLEANUP] Deferred wipeout is used...
+[WS-CLEANUP] Done
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git init /home/anil/.jenkins/workspace/Maven1 # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/maven_proj.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/maven_proj.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/maven_proj.git # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/maven_proj.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1c7ded20c4be07b96dad8023f60626bf8633e40a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1c7ded20c4be07b96dad8023f60626bf8633e40a
+Commit message: "maven project"
+ > git rev-list --no-walk 1c7ded20c4be07b96dad8023f60626bf8633e40a # timeout=10
+[Maven1] $ /bin/sh -xe /home/anil/project/apache-tomcat-8.5.38/temp/jenkins3718858509671871679.sh
++ pwd
+/home/anil/.jenkins/workspace/Maven1
++ whoami
+anil
++ ifconfig
+enp0s31f6: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        ether 50:7b:9d:f2:b0:6b  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+        device interrupt 16  memory 0xf1200000-f1220000  
+
+lo: flags=73<UP,LOOPBACK,RUNNING>  mtu 65536
+        inet 127.0.0.1  netmask 255.0.0.0
+        inet6 ::1  prefixlen 128  scopeid 0x10<host>
+        loop  txqueuelen 1000  (Local Loopback)
+        RX packets 12384  bytes 7730959 (7.3 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 12384  bytes 7730959 (7.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 192.168.122.1  netmask 255.255.255.0  broadcast 192.168.122.255
+        ether 00:16:3e:79:20:ea  txqueuelen 1000  (Ethernet)
+        RX packets 14988  bytes 1418174 (1.3 MiB)
+        RX errors 0  dropped 5  overruns 0  frame 0
+        TX packets 15989  bytes 12946986 (12.3 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+virbr1: flags=4099<UP,BROADCAST,MULTICAST>  mtu 1500
+        inet 192.168.123.1  netmask 255.255.255.0  broadcast 192.168.123.255
+        ether 00:16:3e:06:19:2e  txqueuelen 1000  (Ethernet)
+        RX packets 0  bytes 0 (0.0 B)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 0  bytes 0 (0.0 B)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+vnet0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet6 fe80::fc54:ff:fe74:b5f8  prefixlen 64  scopeid 0x20<link>
+        ether fe:54:00:74:b5:f8  txqueuelen 1000  (Ethernet)
+        RX packets 14988  bytes 1628006 (1.5 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 33020  bytes 13842940 (13.2 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+wlp4s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
+        inet 9.195.142.149  netmask 255.255.254.0  broadcast 9.195.143.255
+        inet6 fe80::af8c:d035:f4cc:f946  prefixlen 64  scopeid 0x20<link>
+        ether 44:85:00:b4:40:6a  txqueuelen 1000  (Ethernet)
+        RX packets 271576  bytes 233155469 (222.3 MiB)
+        RX errors 0  dropped 0  overruns 0  frame 0
+        TX packets 176436  bytes 37433302 (35.6 MiB)
+        TX errors 0  dropped 0 overruns 0  carrier 0  collisions 0
+
+Finished: SUCCESS

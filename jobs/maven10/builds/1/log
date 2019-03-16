@@ -1,0 +1,25 @@
+Started by user [8mha:////4F6EgpmMwJSxHEjjELLMP4EClowrmdGpQ+hqWNKOlXSGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9rNS87My8YgCX3jr2wgAAAA==[0mjenkins lab
+Building in workspace /home/anil/.jenkins/workspace/maven10
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git init /home/anil/.jenkins/workspace/maven10 # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/simple_web.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/simple_web.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/simple_web.git # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/simple_web.git
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/simple_web.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 46195af5eb342d49caf319fb92504da38c714bb8 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 46195af5eb342d49caf319fb92504da38c714bb8
+Commit message: "new3"
+First time build. Skipping changelog.
+Parsing POMs
+ERROR: No such file /home/anil/.jenkins/workspace/maven10/pom.xml
+Perhaps you need to specify the correct POM file path in the project configuration?
+Finished: FAILURE

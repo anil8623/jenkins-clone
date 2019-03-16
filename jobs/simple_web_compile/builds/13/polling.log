@@ -1,0 +1,10 @@
+Started on Feb 15, 2019 3:47:33 PM
+Using strategy: Default
+[poll] Last Built Revision: Revision 54219b9a5f280c149d1404482f52e0f2d99240fa (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h http://localhost:8080/gitbucket/git/root/simple_web.git # timeout=10
+Found 2 remote heads on http://localhost:8080/gitbucket/git/root/simple_web.git
+[poll] Latest remote head revision on refs/heads/master is: 1285b044ddb625949f9b3edee82b503c1c635c06
+Done. Took 0.14 sec
+Changes found

@@ -1,0 +1,22 @@
+Started by user [8mha:////4F6EgpmMwJSxHEjjELLMP4EClowrmdGpQ+hqWNKOlXSGAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9rNS87My8YgCX3jr2wgAAAA==[0mjenkins lab
+Building in workspace /home/anil/.jenkins/workspace/Maven1
+No credentials specified
+Cloning the remote Git repository
+Cloning repository http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git init /home/anil/.jenkins/workspace/Maven1 # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git --version # timeout=10
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/maven_proj.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/maven_proj.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url http://localhost:8080/gitbucket/git/root/maven_proj.git # timeout=10
+Fetching upstream changes from http://localhost:8080/gitbucket/git/root/maven_proj.git
+ > git fetch --tags --progress http://localhost:8080/gitbucket/git/root/maven_proj.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 1c7ded20c4be07b96dad8023f60626bf8633e40a (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 1c7ded20c4be07b96dad8023f60626bf8633e40a
+Commit message: "maven project"
+First time build. Skipping changelog.
+Finished: SUCCESS
